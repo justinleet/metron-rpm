@@ -7,7 +7,7 @@ If these are outdated, and new ones are desired, they can be produced from the M
 
 ```
 git clone https://github.com/apache/incubator-metron.git
-mvn clean package -DskipTests -PHDP-2.5.0.0```
+mvn clean package -DskipTests -PHDP-2.5.0.0
 cd metron-deployment
 mvn clean package -DskipTests -Pbuild-rpms
 mvn clean package -DskipTests -PHDP-2.5.0.0
